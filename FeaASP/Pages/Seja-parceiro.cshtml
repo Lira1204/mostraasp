@@ -1,0 +1,65 @@
+﻿@page
+@model SejaModel
+@{
+    ViewData["Title"] = "Contato";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&display=swap">
+    <link rel="stylesheet" href="~/css/app.css">
+    <link rel="stylesheet" href="~/css/Seja.css">
+</head>
+<body>
+
+    <div class="ctt">
+        <h2 class="mb-4">Fale Conosco</h2>
+
+        <form id="contactForm">
+            <div class="form-group mb-4">
+                <label for="companyName">Nome da Empresa/Organização</label>
+                <input type="text" class="form-control" id="companyName" placeholder="Digite o nome da empresa:" required>
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="cnpj">CNPJ da Empresa</label>
+                <input type="text" class="form-control" id="cnpj" placeholder="Digite o CNPJ da empresa:" required>
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="address">Endereço Completo</label>
+                <input type="text" class="form-control" id="address" placeholder="Digite o endereço completo:" required>
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="phone">Telefone</label>
+                <input type="text" class="form-control" id="phone" placeholder="Digite seu telefone:" required>
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail:" required>
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="website">Website</label>
+                <input type="url" class="form-control" id="website" placeholder="Digite o website da empresa:" required>
+            </div>
+
+            <br>
+            <button type="submit" class="btn btn-primary ctt-custom">Enviar</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            // Adicione aqui a lógica para registrar o usuário
+            alert('Formulário enviado com sucesso!');
+        });
+    </script>
+</body>
+</html>
