@@ -1,12 +1,12 @@
-﻿/* Forum.css */
-.FEA {
+﻿.FEA {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    color: #fe9e0d;
 }
 
 .mensage {
@@ -15,7 +15,8 @@
     background-color: #f0f0f0;
     padding: 10px;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    color: #fe9e0d;
 }
 
 .profile-image {
@@ -27,7 +28,7 @@
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #444;
 }
 
 h3 {
@@ -35,7 +36,7 @@ h3 {
 }
 
 p {
-    color: #666;
+    color: #444;
 }
 
 form {
@@ -43,6 +44,7 @@ form {
     flex-direction: column;
     align-items: left;
     margin-bottom: 20px;
+    color: #fe9e0d;
 }
 
 input,
@@ -50,25 +52,45 @@ textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border-radius: 5px;
-    border: 1px solid #ddd;
+    border-radius: 25px;
+    border: 2px solid #ddd;
 }
 
 button.botao {
     width: 100px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 25px;
     border: none;
-    background-color: #5cb85c;
-    color: white;
+    background-color: #fe9e0d;
     cursor: pointer;
+    color: ghostwhite;
 }
 
-    button.botao:hover {
-        background-color: #4cae4c;
-    }
+. btn-primary ctt-custom {
+    width: 100%;
+    height: 45%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    background: #fe9e0d !important;
+    color: #fff;
+    padding: 15px 35px 18px 20px;
+}
+
+
+
 
 input {
     width: 50%;
     display: block;
+}
+
+.nome,
+.Idade,
+.misericordia {
+    color: #fe9e0d;
 }

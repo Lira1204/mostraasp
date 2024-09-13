@@ -8,6 +8,6 @@ namespace FEAasp.Models
         public string EmailRec { get; set; }
         public string SenhaRec { get; set; }
         public string TokenRecuperacao { get; set; }
-        public datetime DataToken { get; set; }
+        public DateTime DataToken { get; set; }
     }
 }

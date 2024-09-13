@@ -12,6 +12,6 @@ namespace FEAasp.Models
         public string cidade { get; set; }
         public string estado { get; set; } 
         
-        public string mensagem. { get; set;}
+        public string mensagem { get; set;}
     }
 }
